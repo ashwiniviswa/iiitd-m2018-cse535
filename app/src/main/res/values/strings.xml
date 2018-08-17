@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">A1_PhD18010</string>
+    <string name="submit">SUBMIT</string>
+    <string name="clearAll">CLEAR ALL</string>
+    <string name="name_string">Name: %s</string>
+    <string name="rollno_string">Roll No: %s</string>
+    <string name="branch_string">Branch: %s</string>
+    <string name="course1_string">Course 1: %s</string>
+    <string name="course2_string">Course 2: %s</string>
+    <string name="course3_string">Course 3: %s</string>
+    <string name="course4_string">Course 4: %s</string>
+</resources>

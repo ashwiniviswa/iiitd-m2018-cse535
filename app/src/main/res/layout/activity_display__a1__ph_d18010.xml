@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".DisplayActivity_A1_PhD18010">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The details you have entered are as below:" />
+    <TextView
+        android:id="@+id/textview_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_string" />
+    <TextView
+        android:id="@+id/textview_rollno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rollno_string" />
+    <TextView
+        android:id="@+id/textview_branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/branch_string" />
+    <TextView
+        android:id="@+id/textview_course1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course1_string" />
+    <TextView
+        android:id="@+id/textview_course2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course2_string" />
+    <TextView
+        android:id="@+id/textview_course3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course3_string" />
+    <TextView
+        android:id="@+id/textview_course4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course4_string" />
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
